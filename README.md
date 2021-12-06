@@ -23,45 +23,31 @@ teachable machine 부분에서는 정상 차량의 클래스와 사고차량의 
 http://3.83.129.204/  이나 https://car-condition-ktbvb.run.goorm.io/CAR_Condition/index.html  주소로 접속시 이용가능합니다.
 ![image](https://user-images.githubusercontent.com/45085480/144899379-b588cc20-30a4-402e-8523-23994ffc3ad5.png)
 
+##
+### 사용방법:
+1. 위의 주소로 접속뒤 Start 버튼을 누룬다.
+2. ADD IMAGE를 눌러 차량 사진을 선택하여 넣어준다.
+3. Run 버튼을 눌러 사고 차량인지 확인한다.
+4. Normal Car인지 Accident인지 확인하다.  
+ 
+ ##
+ 
+ ### 개발 결과물의 필요성 및 활용방안
+ 
+ 본 프로젝트는 카 쉐어링 회사에서 그동안 인건비 문제로인해 차량 관리가 부진하여 일어난 차량의 사고를 줄일수 있습니다. 
+ 사고차량 머신러닝을 통해 사고 확률을 줄여 보다 차량관리를 적극적으로 할수있어 안전한 차량을 쉐어링 해줄수있습니다.
+ 차량의 관리또한 수월함으로 기존의 사고차량을 신고하지 않은 이용자들을 손쉽게 잡을수 있습니다.
+ 
+ 소비자 입장에서는 차량이 사고 차량이 아닌 정상적인 차량을 대여받으므로 카쉐어링의 주요 이용자인 20대들의 차량 상식으로 부족한 사고를 예방할수 있습니다.
+ 차량을 안전하게 대여받아 보다 쾌적한 서비스를 받으수 있으며 기존의 사고차량 대여로 인한 불편함과 사고확률이 줄어들것입니다.
+ 차량의 상태가 사고 차량인지 알수 없었으나 기존과 동일한 사진 업로드 방식으로 외관상 사고 차량인지 판별이 가능하여 이용전 차량의 상태를 확인할수 있습니다.
+ 차량상태확인으로 인하여 사고를 내지 않았어도 억울하게 면책금을 지불해야 했던 상황도 줄어들것으로 보여집니다.
+ 
+ #### 활용방안
+ 
+ 1. 전방 차량인식하는 기능을 블랙박스에 추가하여 최신차량이용자들만 가지고있는 최신 기능을 구형차량에도 사용가능하게 할 수있습니다.
+ 
+ 2. 소규모부터 대규모까지 개인 렌터카회사에서 차량을 일일히 확인하는 작업을 차량판별 머신러닝을 통해 사람이 보지 못하는 부분까지 잡아내주며 차량관리를 효율적으로 도와줄수 있습니다.
+ 
+ 3. 차량의 블랙박스와 전방 차량인식 기능을 발전시켜 범죄차량과 대포차량을 인식하여 자동으로 범죄차량을 인식할수있습니다.
 
-
-# Teachable Machine Community
-
-
-### What is Teachable Machine?
-
-[Teachable Machine](https://teachablemachine.withgoogle.com/) is a web-based tool that makes creating machine learning models fast, easy, and accessible for everyone. [You can try it here](https://teachablemachine.withgoogle.com/).
-
-### Who is it for?
-Educators, artists, students, innovators, makers of all kinds – really, anyone who has an idea they want to explore. No prerequisite machine learning knowledge required.
-
-### How does it work?
-You train a computer to recognize your images, sounds, and poses without writing any machine learning code. Then, use your model in your own projects, sites, apps, and more.
-
-### What is this repository for?
-
-This repository contains two components of [Teachable Machine](https://teachablemachine.withgoogle.com/):
-
-1. **A [libraries](/libraries) section** that contains all of the machine learning code used in Teachable Machine. Under the hood we use [Tensorflow.js](https://www.tensorflow.org/js), a library for machine learning in Javascript, to train and run the models you make in your web browser. The `libraries` section also contains the API for [image](/libraries/image), [audio](/libraries/audio), and [pose](/libraries/pose) helper libraries that make it easier to use the models exported by Teachable Machine in your own projects.
-
-2. **A [snippets](/snippets) section** that contains markdown snippets that are being displayed inside the export panel in [Teachable Machine](https://teachablemachine.withgoogle.com/). These snippets contain code and instructions on how to use the exported models from Teachable Machine in languages like Javascript, Java and Python.
-
-### How can I send feedback or get in contact with you?
-
-You have a few options:
-
-* [Use this form](https://forms.gle/uthe2C4tZNPA11GX7).  
-* Share your projects using [#teachablemachine](https://twitter.com/hashtag/teachablemachine) on Twitter or on the [Experiments with Google](https://experiments.withgoogle.com/submit) page.
-* Open an issue in this repository.
-
-## Community Contributions and Projects
-
-* [Teachable Machine Node Library for image models](https://github.com/tr7zw/teachablemachine-node-example)
-* [Teachable Machine Mobile for image models](https://github.com/mstale007/Teachable_Machine_Mobile/tree/master)
-
-
-## Disclaimer
-
-This is an experiment, not an official Google product. We’ll do our best to support and maintain this experiment but your mileage may vary.
-
-We encourage open sourcing projects as a way of learning from each other. Please respect our and other creators’ rights, including copyright and trademark rights when present, when sharing these works and creating derivative work. If you want more info on Google's policy, you can find that [here](https://www.google.com/permissions/).
