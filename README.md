@@ -23,13 +23,17 @@ teachable machine 부분에서는 정상 차량의 클래스와 사고차량의 
 http://3.83.129.204/  이나 https://car-condition-ktbvb.run.goorm.io/CAR_Condition/index.html  주소로 접속시 이용가능합니다.
 ![image](https://user-images.githubusercontent.com/45085480/144899379-b588cc20-30a4-402e-8523-23994ffc3ad5.png)
 
+
+
 ##
 ### 사용방법:
 1. 위의 주소로 접속뒤 Start 버튼을 누룬다.
 2. ADD IMAGE를 눌러 차량 사진을 선택하여 넣어준다.
 3. Run 버튼을 눌러 사고 차량인지 확인한다.
 4. Normal Car인지 Accident인지 확인하다.  
- 
+
+![image](https://user-images.githubusercontent.com/45085480/144909551-9883122b-566c-4992-8ee7-b2e9da3795ed.png)
+
  ##
  
  ### 개발 결과물의 필요성 및 활용방안
