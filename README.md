@@ -1,15 +1,27 @@
 
-## NEW:
+# 프로젝트명: 사고챠랑 판별머신
 
-Want to bring Teachable Machine into your own web creations?
+### 프로젝트 멤버이름및 멤버 별 소개 : 단일팀 - 정성호- 개발&발표
 
-We’re working on a library called _teachablemachine.js_ which will let you do just that. Here’s the first remixable demo you can play with to get a sneak peek at what’s possible:
 
-[Hello Wizard](http://glitch.com/edit/#!/tm-wizard?path=README.md%3A1%3A0) - This demo shows how you can drop a machine learning “training wizard” on top of your website with just a few lines of code.
+
+### 프로젝트 소개 및 개발내용
+
+본 프로젝트는 최근들어서 카 쉐어링 시장이 발달하면서 일어나는 차량 사고와 카쉐어링 기업들의 부실한 차량관리로 인한 이용자들의 안전을 지키며 기업적입장에서는 저렴한 비용으로 차량관리를 할수 있고자 만들었습니다. 카쉐어링 이용시 차량의 사진을 업로드 하는데 이러한 부분을 이용하여 올리는 사진을 teachable machine의 머신러닝을 통하여 사고 차량인지 정상 차량인지 확인할수 있게 개발하였습니다. 
+
+aws의 EC2를 아용하여 nginx를 활용한 웹서비스이며 google의 teachable machine 오픈소스를 이용하여 개발 하였습니다.
+teachable machine 부분에서는 정상 차량의 클래스와 사고차량의 클래스를 만들었습니다.
+정상 클래스에는 샘플이 대략3000개 사고 클래스에는 1000개 정도의 클래스를 주었습니다.
+또한 학습은 1000번에서 25000번정도 학습 시킨 결과 3000번 이후로는 결과가 미미하였으며 샘플 사진이 정화하다면 1000번 이하의 학습에서도 정확한 결과를 보여주었습니다.
+다만 이미지에 노이즈가 심하거나 차량에 이물질이 있을경우 오류를 범하는일이 있어 이러한 경우의 사진을 넣어주어 오류률을 줄였습니다 . 
+아직은 소타나DN8 아반데CN7 그랜져IG페이스리프트 모델만을 적용하여 개발하였습니다. 추후에 적용차량을 추가할 계획입니다.
+
+
+
+
 
 # Teachable Machine Community
 
-![Teachable Machine](./teachablemachine.gif)
 
 ### What is Teachable Machine?
 
